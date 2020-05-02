@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册界面</title>
+    <link rel="stylesheet" href="footer.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            list-style: none;
+        }
+        body {
+            padding: 15px 150px;
+            color: #666666;
+            font-size: 12px;
+        }
+        .line {
+            margin-top: 5px;
+            border-bottom: 2px solid #b1191a;;
+        }
+        .box {
+            width: 100%;
+            margin-top: 20px;
+            height: 520px;
+            border: 1px solid #cccccc;
+        }
+        .box .head {
+            height: 40px;
+            /*width: 100%;*/
+            background-color: #ececec;
+            padding: 0 10px;
+            overflow: hidden;
+        }
+        a {
+            text-decoration: none;
+        }
+        .head .c1 {
+            float: left;
+            font: 20px 微软雅黑;
+            color: #5c5251;
+            line-height: 40px;
+        }
+        .head .c2 {
+            float: right;
+            line-height: 40px;
+            font-size: 15px;
+            color: #666666;
+        }
+        .c2 a {
+            color: crimson;
+        }
+        .user {
+            position: relative;
+            margin: 30px 0 0 380px;
+            width: 380px;
+            height: 360px;
+        }
+        .user li {
+            padding: 8px 2px;
+            text-align: right;
+        }
+        li input {
+            width: 280px;
+            height: 35px;
+        }
+        .common {
+            display: inline-block;
+            width: 30px;
+            color: white;
+            text-align: center;
+        }
+        .a1 {
+            background-color: #de1111;
+        }
+        .a2 {
+            background-color: #40b83f;
+        }
+        .a3 {
+            background-color: #f79100;
+        }
+        .error {
+            position: absolute;
+            top: 15px;
+            left: 400px;
+            width: 250px;
+            color: red;
+            height: 30px;
+        }
+       .error div {
+            display: inline-block;
+           margin: -5px 0 0 5px;
+       }
+        .agree {
+            margin: 40px 0 40px 80px;
+        }
+        /*.agree input {
+            margin-top: 3px;
+        }*/
+        .go {
+            width: 200px;
+            height: 35px;
+            line-height: 35px;
+            color: white;
+            font-size: 15px;
+            text-align: center;
+            margin-left: 110px;
+            background-color: #c81623;
+        }
+   
+    </style>
+</head>
+<body>
+    <div><img src="images/logo1.png" /></div>
+    <div class="line"></div>
+    <div class="box">
+        <div class="head">
+            <div class="c1">注册新用户</div>
+            <div class="c2">我有账号，去<a href="#">登陆</a></div>
+        </div>
+        <div class="user">
+            <ul>
+                <li>
+                    <span>手机号：</span>
+                    <input type="text">
+                </li>
+                <li>
+                    <span>短信验证码：</span>
+                    <input type="text">
+                </li>
+                <li>
+                    <span>登录密码：</span>
+                    <input type="password">
+                </li>
+                <li>
+                    安全程度：
+                    <span class="a1 common">弱</span>
+                    <span class="a2 common">中</span>
+                    <span class="a3 common">强</span>
+                </li>
+                <li>
+                    <span>确认密码：</span>
+                    <input type="password">
+                </li>
+            </ul>
+            <div class="error">
+                <img src="images/error.png" alt="">
+                <div>手机号码格式不准确，请重新输入</div>
+            </div>
+            <div class="agree">
+                <input type="checkbox">
+                <span>同意协议并注册 <a href="#">《用户协议》</a> </span>
+            </div>
+            <div class="go">完成注册</div>
+        </div>
+    </div>
+    <div class="about">
+        <p>关于我们 | 联系我们 | 联系客服 | 商家入驻 | 营销中心 | 手机品优购 | 友情链接 | 销售联盟 | 品优购社区 | 品优购公益 | English Site | Contact U</p>
+        <h6>地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱：zhanghj+itcast.cn</h6>
+        <h5>京ICP备080014221号京公网安备110108007702</h5>
+    </div>
+</body>
+</html>

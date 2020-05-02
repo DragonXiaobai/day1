@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 12px;
+    color: #666666;
+    min-width: 1500px;
+
+}
+.left {
+    float: left;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+.pg-header {
+
+    background-color: #eeeeee;
+    height: 30px;
+}
+.pg-header .nuv {
+    overflow: hidden;
+    padding: 0 150px;
+
+}
+.nuv a {
+    line-height: 30px;
+    color: #666666;
+}
+.nuv .styred {
+    color: firebrick;
+}
+.nuv a:hover {
+    color: crimson;
+}
+.nuv ul {
+    margin-top: -1px;
+    float: right;
+    margin-left: -800px;
+}
+.nuv ul li {
+    display: inline-block;
+    padding: 0 8px;
+}
+.nuv .line {
+    height: 16px;
+}
+.pg-header .logo {
+    padding: 25px 160px 0 150px;
+    overflow: hidden;
+}
+.logo img {
+    float: left;
+}
+.logo .text1 {
+    float: left;
+    margin: 5px 0 0 150px;
+    width: 530px;
+}
+.logo .text1 .input {
+    height: 35px;
+    width: 456px;
+    border: 2px solid darkred;
+    color: #dddddd;
+}
+.logo .sou {
+    float: right;
+    height: 39px;
+    width: 70px;
+    background-color: darkred;
+    text-align: center;
+    font-size: 16px;
+}
+.sou a {
+    display: inline-block;
+    margin-top: 8px;
+    color: white;
+}
+.text1 .list1 {
+    padding: 5px 0;
+}
+.list1 ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+.list1 li a {
+    color: #666666;
+}
+.list1 .red {
+    color: firebrick;
+}
+.list1 li a:hover {
+    color: crimson;
+}
+.logo .car {
+    float: right;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+    margin-top: 5px;
+}
+.nuv1 {
+    padding: 0 150px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.nuv1 .lei {
+    float: left;
+    width: 210px;
+    height: 45px;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: white;
+
+    background-color: #b1191a;
+}
+.nuv1 .list2 {
+
+}
+
+.list2 li {
+    float: left;
+    padding: 0 10px 0 40px;
+    margin-top: 12px;
+}
+.list2 li a {
+    color: #666666;
+    font-size: 16px;
+}
+.list2 li a:hover {
+    color: crimson;
+}
+.un_line{
+    border-bottom: 3px solid #b1191a;
+}
+.fixlist {
+    position: fixed;
+    left: 60px;
+    top: 80px;
+    width: 80px;
+    display: none;
+    /*z-index: 10;*/
+   /* background-color: #c81623;*/
+}
+.fixlist .goback {
+    position: absolute;
+    top: 130px;
+    left: 0;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #666666;
+    background-color: pink;
+}
+.fixlist ul {
+    padding: 0 2px;
+}
+.fixlist li {
+    text-align: center;
+    /*padding: 7px 0 6px 0;*/
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #cccccc;
+    background-color: white;
+}
+/*.pg-header .fixlist li:first-child {*/
+    /*background-color: #c81623;*/
+
+/*}*/
+.pg-header .fixlist .color a {
+    background-color: #c81623;
+    color: white;
+
+}
+.fixlist li a {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #666666;
+
+}
+/*.fixlist li:first-child a {*/
+    /*color: white;*/
+/*}*/

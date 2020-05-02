@@ -1,0 +1,300 @@
+.pg-content {
+    padding: 20px 150px;
+    margin-top: 160px;
+    overflow: hidden;
+}
+.phone {
+    float: left;
+
+    width: 400px;
+    height: 590px;
+}
+.phone .list1 li {
+    float: left;
+    padding-right: 1px;
+}
+
+.border {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+    border: 1px solid #cccccc;
+}
+.imgbox {
+    display: none;
+    width: 300px;
+    height: 300px;
+    background-color: sandybrown;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    cursor: move;
+}
+.bigimg {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 420px;
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    border: 1px solid#cccccc;
+    overflow: hidden;
+    z-index: 99;
+}
+.border .bigImg {
+    width: 800px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.border img {
+    width: 400px;
+}
+.phone .lr {
+    width: 390px;
+    height: 80px;
+    margin-top: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.lr .apples {
+    margin-left: 45px;
+}
+.apples .prev1 {
+    position: absolute;
+    top: 12px;
+    left: 0;
+}
+.apples .next1 {
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+.price {
+    float: left;
+    margin: 30px 0 0 80px;
+}
+.price>p {
+    color: crimson;
+    padding: 10px 0;
+}
+.price .border1 {
+    width: 700px;
+    height: 110px;
+    background-color: #dcb7c6;
+    padding: 15px 5px;
+}
+
+.header p {
+    display: inline-block;
+   /* padding-bottom: 30px;*/
+}
+.header .b1 {
+    margin-left: 40px;
+    font-size: 22px;
+    color: crimson;
+}
+.header .b2 {
+    color: crimson;
+}
+.header .b3 {
+    margin-left: 370px;
+}
+.body p {
+    padding-top: 20px;
+}
+.d1 {
+    margin-left: 40px;
+}
+.d1 a {
+    color: white;
+    height: 25px;
+    background-color: crimson;
+}
+.d2 {
+    margin-left: 66px;
+}
+.f {
+    margin: 10px 0 0 5px;
+}
+.f p {
+    padding: 8px 0;
+}
+.f .border2 {
+    border: 1px solid saddlebrown;
+}
+.f1 a {
+    display: inline-block;
+    background-color: #f6f6f6;
+    color: #666666;
+    padding: 12px 25px;
+}
+.f1 a:hover {
+    color: crimson;
+}
+/*.f .f1 span {
+    display: inline-block;
+    background-color: #f6f6f6;
+    color: #666666;
+    padding: 12px 25px;
+}*/
+.f .f1 {
+    margin-left: 16px;
+}
+.f2 {
+    width: 300px;
+    height: 60px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+.f2 .jia {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #666666;
+    overflow: hidden;
+    text-align: center;
+}
+.jia .number {
+    float: left;
+    height: 40px;
+    width: 26px;
+    line-height: 40px;
+    border-right: 1px solid #666666;
+}
+.jia .e1 {
+    float: left;
+    height: 40px;
+    width: 13px;
+    background-color: #eeeeee;
+}
+.jia .e1jia {
+    width: 13px;
+    height: 19px;
+    line-height: 19px;
+    border-bottom: 1px solid #666666;
+}
+.jia .e1 a{
+    color: #666666;
+}
+.f2 .join {
+    float: left;
+    width: 120px;
+    height: 40px;
+    background-color: firebrick;
+    margin-left: 10px;
+    text-align: center;
+}
+.join a {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 40px;
+}
+.join a:hover {
+     color: crimson;
+}
+.introduce {
+    margin-top: 40px;
+}
+.introduce .hua {
+    width: 220px;
+    height: 1600px;
+    margin-top: 600px;
+    border: 1px solid #cccccc;
+}
+.hua .h1 {
+    width: 109px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+.h1h2 {
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+.hua .h2 {
+    width: 110px;
+    color: red;
+}
+.hua .phones {
+    /*overflow: hidden;*/
+    padding: 0 10px;
+}
+.phones li {
+    height: 260px;
+    border-bottom: 1px solid #cccccc;
+}
+.hua .phones li p {
+    margin-top: 10px;
+}
+.phones .weight {
+    font-weight: bold;
+}
+.phones .car1 {
+    border: 1px solid #cccccc;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #e9e0ff;
+    margin-left: 60px;
+}
+.introduce .host {
+    float: right;
+    /*margin-left: 15px;*/
+    width: 900px;
+    height: 2150px;
+    margin-top: -1600px;
+    margin-right: 60px;
+
+}
+.host .h3 {
+    height: 35px;
+    background-color: #f1f1f1;
+}
+.h3 ul {
+   /* display: inline-block;*/
+}
+.h3 ul li {
+    float: left;
+    width: 80px;
+    height: 35px;
+    /*text-align: center;*/
+    margin-left: 10px;
+    line-height: 35px;
+}
+.h3 li a {
+    color: #666666;
+}
+.h3 .x1 a {
+    color: white;
+    margin-left: 15px;
+}
+.h3 .x1 {
+    background-color: crimson;
+    margin-left: 0;
+}
+.h3 .x2 {
+    width: 140px;
+}
+.boy {
+    padding: 20px 20px 0 20px;
+}
+.boy p {
+    padding-bottom: 10px;
+}
+.read a {
+    float: right;
+    color: black;
+}
+.read a:hover {
+
+    color: crimson;
+}
